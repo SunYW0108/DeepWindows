@@ -1,4 +1,4 @@
-# PyTorch Implementation of DeepWindows
+# PyTorch Implementation of [DeepWindows](https://www.mdpi.com/2220-9964/11/3/162)
 
 ## Coming soon!
 
