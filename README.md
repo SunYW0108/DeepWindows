@@ -1,6 +1,6 @@
-# PyTorch Implementation of DeepWindows
+# DeepWindows
 
-## Coming soon!
+# Coming soon!
 
 ## Citation
 
