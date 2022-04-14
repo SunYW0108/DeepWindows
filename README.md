@@ -1,12 +1,14 @@
 # DeepWindows
 
-DeepWindows is the PyTorch Implementation of [DeepWindows: Windows Instance Segmentation through an Improved Mask R-CNN
+Dataset and PyTorch Implementation of [DeepWindows: Windows Instance Segmentation through an Improved Mask R-CNN
  Using Spatial Attention and Relation Modules](https://www.mdpi.com/2220-9964/11/3/162).
  
  
  ## Contents
 - [Requirements](#Requirements)  
-- [Usage](#Usage)  
+- [Usage](#Usage) 
+- [Dataset](# Dataset)
+- [Citation](# Citation) 
  
  
  
