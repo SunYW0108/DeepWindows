@@ -48,7 +48,10 @@ to calculate pixel accuracy:
 ```
 
 ## Dataset
-comming soon!
+The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1bVJa5kM2FvpZM75RQoJ7Oq9m1PTs240-/view?usp=sharing)
+ or [百度网盘](https://pan.baidu.com/s/1nCyMIlvacimHjVGvpIzymw) (提取码：srfo)
+
+You need to change the dataset path in train_net.py to your own path.
 
 ## Citation
 

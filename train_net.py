@@ -98,7 +98,7 @@ def setup(args):
 def register_dataset():
     metadata = {'thing_classes': ['window'], }
 
-    # dataset path
+    # dataset path, change to your own path
     TRAIN_PATH = '/home/sun/facades_datasets/ALL/train'
     VAL_PATH = '/home/sun/facades_datasets/ALL/val'
 
