@@ -5,13 +5,37 @@ Dataset and PyTorch Implementation of [DeepWindows: Windows Instance Segmentatio
  
  
  ## Contents
-- [Requirements](#Requirements)  
-- [Usage](#Usage) 
 - [Dataset](#Dataset)
 - [Citation](#Citation) 
+- [Requirements](#Requirements)  
+- [Usage](#Usage) 
+
  
  
- 
+## Dataset
+The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1bVJa5kM2FvpZM75RQoJ7Oq9m1PTs240-/view?usp=sharing)
+ or [百度网盘](https://pan.baidu.com/s/1nCyMIlvacimHjVGvpIzymw) (提取码：srfo)
+
+You need to change the dataset path in train_net.py to your own path.
+
+## Citation
+
+If you use our code or dataset, please use the following BibTeX entry.
+
+```BibTeX
+@Article{sun2022deepwindows,
+  author =       {Sun, Yanwei and Malihi, Shirin and Li, Hao and Maboudi, Mehdi},
+  title =        {DeepWindows: Windows Instance Segmentation through an Improved Mask R-CNN Using Spatial Attention and Relation Modules},
+  journal =      {ISPRS International Journal of Geo-Information},
+  volume =       {11},
+  year =         {2022},
+  number =       {3},
+  article-number = {162},
+  url =          {https://www.mdpi.com/2220-9964/11/3/162}
+  issn =         {2220-9964},
+  doi =          {10.3390/ijgi11030162}
+}
+``` 
 
 ## Requirements
 - Linux(tested on Ubuntu 20.04)
@@ -55,29 +79,4 @@ to calculate pixel accuracy:
   --output /path/to/output
   --opts
   MODEL.WEIGHTS /path/to/checkpoint_file
-```
-
-## Dataset
-The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1bVJa5kM2FvpZM75RQoJ7Oq9m1PTs240-/view?usp=sharing)
- or [百度网盘](https://pan.baidu.com/s/1nCyMIlvacimHjVGvpIzymw) (提取码：srfo)
-
-You need to change the dataset path in train_net.py to your own path.
-
-## Citation
-
-If you use our code or dataset, please use the following BibTeX entry.
-
-```BibTeX
-@Article{sun2022deepwindows,
-  author =       {Sun, Yanwei and Malihi, Shirin and Li, Hao and Maboudi, Mehdi},
-  title =        {DeepWindows: Windows Instance Segmentation through an Improved Mask R-CNN Using Spatial Attention and Relation Modules},
-  journal =      {ISPRS International Journal of Geo-Information},
-  volume =       {11},
-  year =         {2022},
-  number =       {3},
-  article-number = {162},
-  url =          {https://www.mdpi.com/2220-9964/11/3/162}
-  issn =         {2220-9964},
-  doi =          {10.3390/ijgi11030162}
-}
 ```
